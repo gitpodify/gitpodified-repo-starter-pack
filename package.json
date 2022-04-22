@@ -1,0 +1,19 @@
+{
+  "name": "@gitpodify/gitpodify-new-project",
+  "version": "1.0.0",
+  "description": "An starter template to make your new project up and running in Gitpod.",
+  "scripts": {
+    "gitpod:build": "DOCKER_BUILDKIT=1 docker build -t ghcr.io/gitpodify/local-build --file .gitpod.Dockerfile .",
+    "gitpod:shell": "docker run --rm -it ghcr.io/gitpodify/local-build $*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitpodify/gitpodified-repo-starter-pack.git"
+  },
+  "author": "Andrei Jiroh halili <ajhalili2006@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitpodify/gitpodified-repo-starter-pack/issues"
+  },
+  "homepage": "https://github.com/gitpodify/gitpodified-repo-starter-pack#readme"
+}
