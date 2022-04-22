@@ -1,8 +1,8 @@
 # Gitpodified Repo Starter Pack
 
-An GitHub template usually Recap Time Squad uses on our fresh projects, with preloaded extensions and cuustom Dockerfile, for your next project with Gitpod.
+An GitHub template usually Recap Time Squad uses on our fresh projects, with preloaded extensions and custom Dockerfile, for your next project with Gitpod.
 
-While it might be a bit opinionated on our case (setting `DOCKER_BUILDKIT=1`, using Node.js gitignore template, using `package-lock.json` for npm instead of Yarn Modern/pnpm, etc.), we made this repo so you'll be easily get a new project up and running in Gitpod, together with some utility scripts to help you maintain your custom workspace image.
+While it might be a bit opinionated on our case (setting `DOCKER_BUILDKIT=1`, using Node.js gitignore template, using `package-lock.json` for npm instead of Yarn Modern/pnpm, etc.), we made this repo so you can easily get a new project up and running in Gitpod, together with some utility scripts to help you maintain your custom workspace image.
 
 Note that CI part of things and even Hadolint configuration are not part of this template, so you may need to write them manually.
 
