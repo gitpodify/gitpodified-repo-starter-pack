@@ -1,0 +1,21 @@
+
+image:
+  file: .gitpod.Dockerfile
+  context: .
+tasks:
+  # An regular npm-based setup with direnv allow for your dotenv file
+  - init: npm i
+    before: direnv allow || true
+    command: echo hi mom!
+vscode:
+  extensions:
+    - vivaxy.vscode-conventional-commits
+    - mikestead.dotenv
+    - eamodio.gitlens
+    - akosyakov.gitpod-monitor
+    - exiasr.hadolint
+    - esbenp.prettier-vscode
+    - timonwong.shellcheck
+    - donjayamanne.githistory
+    - codezombiech.gitignore
+    - ms-azuretools.vscode-docker
